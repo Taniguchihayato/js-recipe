@@ -3,5 +3,11 @@ const choice2 = document.getElementById("choice-2")
 const choice3 = document.getElementById("choice-3")
 const display = document.getElementById("display")
 choice1.onclick = function() {
-  display.textContent = display
+  display.textContent = "違います"
+}
+choice2.onclick = function() {
+  display.textContent = "違います"
+}
+choice2.onclick = function() {
+  display.textContent = "違います"
 }
